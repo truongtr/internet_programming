@@ -1,0 +1,53 @@
+1. Input Validation: (120 words)
+Input validation help to ensure the input data is desirably safe to the system. Validation makes sure that the supplied data has correct syntax, within a fixed length with only defined characters. Also, it makes sure the data is correct to human literature rules. Validation can be implemented on server side with javascript to make the process faster to the users and make the site become more responsive. Besides, server-side can undertake this process. This, however, will make the process become slower. Nowadays, with the support from HTML5, validation has become far easier with two major validation innovations including new input types and constraint validation. 
+In input type in HTML5, there are many types that users can manipulate such as text, tel, search, email, number, range, color, datetime, date, month, week, time and so forth. These give a semantic meaning to the forms and let it work just as described.
+HTML5 constraint validation defines patterns, maxlength, min/max, required.
+These, however, still have some drawbacks as older browsers do not support these. Internet Explorer is not a friendly browser to this.
+
+2. Authentication:
+
+Authentication is the process to verify what kind of users are using the services or web pages. These are commonly obtained by verifying user name, ID, password and some other information that the given user is categorized. 
+In order to have effective authentication it is recommended to follow some guidelines
+User names: making sure that the characters for user names are case insensitive. 
+Password:
+- The length for password should be more than 10 characters, if it is considerably week if it is less than that
+- Password should be complex enough to prevent from guessing. It should includes at least 1 uppercase character, 1 lowercase character, 1 digit and 1 special character. 
+Passwords should be stored in a secured way. There are a number of cryptographic techniques that can be used to keep passwords safe from hacker's hands. 
+
+3. Authorization:
+Authorization allows us to configure user group who can access certain parts of the web application. Authorization is often combined with authentication to secure the access to certain context from server.  Authentication defines who the user is, meanwhile authorization defines which context of the web site that that user can reach. There are many user groups to be considers such as admin, trusted users, guests. Admin is commonly the one who has all accesses to the system including managing other users, managing the site and so on. Meanwhile trusted users can view certain contexts of the site and possible create small contents. Guests users commonly can read some certain parts of the site. 
+
+4. Configuration Management:
+( To be filled..)
+
+5. Sensitive Data:
+
+Sensitive data is a term used to describe a set of personal information including religion, criminal offences or heath situation. These information are protected according to the civil right in many countries. Also, sensitive data covers customer,client or student information including ID numbers, credit numbers,  birthday. When hackers obtain these information from an attacked website, they can use it in bad purposes. There are a number of ways to protect data from attackers such as https, stronger passwords, password salt hash.
+
+6. Session Management:
+In web server session management is a method to make stateless HTTP protocol support session state. In this case, users will not be asked password and username again when they have been authenticated to the server. There for they can make as many HTTP requests as they want. Session management uses HTTP cookies and session ID. HTTP cookies is a small data portion sent from the server to the user's web browser. This saves user's browsing activities so that it can notify server about it. Session ID is a small portion of data to identify a session exchange. When customers browse to a shopping web site, they tend to choose many items in different pages. In that case, session ID is necessary to save their cart. Session ID is granted in a certain amount of activity time. When users are inactive for longer than defined time in session ID, their cart will be invalid. 
+
+7. Cryptography:
+Cryptography is the method to protect information by encrypting it into an unreadable format. Only recipients who own the secret key decrypt the information or message. Sometimes, encrypted data can be decrypted, however modern technology have made this work now almost impossible. When the internet has become broader, information security is becoming more and more important. It is extremely important to protect user's information such as credit card information, messages, data.
+
+8. Parameter manipulation: 
+
+Manipulate the data sent between the browser and the server to avoid attacking from hackers has long been problematic but not challenging. In poor web development, hackers can modify items in a web cart or many other values stored in cookies and so on.
+Cryptographic protection in the transport layer cannot protect from hackers like parameter manipulation. These can be implemented with HTTP Headers, URL Query Strings, Form Fields, Cookies. 
+//Cookies manipulation: Cookies are preferred method to maintain the stateless HTTP protocol.
+
+
+Input validation
+Authentication
+Authorization
+Configuraiton Management
+Sensitive Data
+Session Management
+Cryptography
+Parameter Manipulation
+Exception Management
+Auditing and Logging
+
+
+
+
