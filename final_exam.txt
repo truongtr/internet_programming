@@ -40,7 +40,7 @@ Cryptographic protection in the transport layer cannot protect from hackers like
 
 As there are more and more people getting involved in the system, it is likely to have situations in which people violate the policy of the system.
 Exception management help to give descriptions of errors happened for each exception. From those description, it is easier for developer to analyze errors and  fix the exceptions systematically. 
-Some good rules of exception management can be
+Errors are exceptional and should be treated as such.
 http://www.hanselman.com/blog/GoodExceptionManagementRulesOfThumb.aspx
 
 
