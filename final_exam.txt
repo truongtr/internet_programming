@@ -36,7 +36,15 @@ Manipulate the data sent between the browser and the server to avoid attacking f
 Cryptographic protection in the transport layer cannot protect from hackers like parameter manipulation. These can be implemented with HTTP Headers, URL Query Strings, Form Fields, Cookies. 
 //Cookies manipulation: Cookies are preferred method to maintain the stateless HTTP protocol.
 
+9. Exception Management:
 
+As there are more and more people getting involved in the system, it is likely to have situations in which people violate the policy of the system.
+Exception management help to give descriptions of errors happened for each exception. From those description, it is easier for developer to analyze errors and  fix the exceptions systematically. 
+Some good rules of exception management can be
+http://www.hanselman.com/blog/GoodExceptionManagementRulesOfThumb.aspx
+
+
+//<------- REFERENCE ------->
 Input validation
 Authentication
 Authorization
