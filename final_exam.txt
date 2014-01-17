@@ -40,7 +40,14 @@ Cryptographic protection in the transport layer cannot protect from hackers like
 
 As there are more and more people getting involved in the system, it is likely to have situations in which people violate the policy of the system.
 Exception management help to give descriptions of errors happened for each exception. From those description, it is easier for developer to analyze errors and  fix the exceptions systematically. 
-Errors are exceptional and should be treated as such.
+Errors are exceptional and should be treated as such. An exception is thrown only when the method cannot do what it says it can. There is also a way to create global error handler that logs everything.
+
+10.Auditing and management:
+
+As the web application provides sensitive asssets such as data and user's data, there should be proper controls on the information flow.There are many causes for app vulnerability, it is better to get better knowledge to write better codes than finding mistakes. The auditing process should be started by collecting high level data flow by focusing on many interfaces. Tracing the data down to specific fucntions that request input or return output and document each functions's name.Data validation, data protection and error handling are also important to avoid errors and vulnerability. 
+
+
+
 http://www.hanselman.com/blog/GoodExceptionManagementRulesOfThumb.aspx
 
 
